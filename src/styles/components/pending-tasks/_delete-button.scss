@@ -1,0 +1,12 @@
+.delete-button {
+    background-color: #161212 !important; 
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: #673cd3 !important;
+    font-size: 1.25rem; 
+  
+    &:hover {
+      background-color:#09050e9c; // Hover rengi
+    }
+  }

@@ -1,0 +1,37 @@
+.pending-tasks {
+  margin-top: 1rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+  .task-list span{
+    font-size: 2rem;
+    color: #7C00FE!important;
+  }
+  .list-group-item {
+    background-color: #161212 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.75rem 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+ 
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //background-color: rgb(21, 1, 50);
+
+    .task-text {
+      font-size: 1rem;
+      color: #2d0c682f;
+      font-size: 1.75rem;
+     
+    }
+
+    .button-group {
+      display: flex;
+      gap: 0.1rem;
+    }
+  }
+}
