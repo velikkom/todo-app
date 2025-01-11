@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
 
-@import "../styles/components/add-task/_add-button.scss";
-@import "../styles/components/add-task/_add-task-form.scss";
+ /*@import "../styles/components/add-task/_add-task-form.scss";
 @import "../styles/components/add-task/_input-field.scss";
 @import "../styles/components/pending-tasks/_complete-button.scss";
 @import "../styles/components/pending-tasks/_delete-button.scss";
 @import "../styles/components/pending-tasks/_pending-task.scss";
 @import "../styles/components/pending-tasks/_task-list.scss";
-@import "../styles/components/pending-tasks/_completed-task.scss";
-
+@import "../styles/components/pending-tasks/_completed-task.scss"; */
 
 body {
   font-family: var(--font-roboto), sans-serif;
@@ -22,21 +20,23 @@ body {
 .container {
   max-width: 800px;
   margin: 2rem auto;
-  background-color: #1c1c1c; 
+  background-color: #1c1c1c;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .add-task-section,
 .pending-tasks-section,
 .completed-tasks-section {
   margin-bottom: 2rem;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-inter), sans-serif;
 }
 .task-list {
-  list-style: none; 
+  list-style: none;
   padding: 0;
   margin: 0;
 
@@ -47,7 +47,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.5rem; 
+    margin-bottom: 0.5rem;
 
     &:last-child {
       margin-bottom: 0;
@@ -57,6 +57,6 @@ h1, h2, h3 {
 
 .done-list li {
   background-color: #1c1c1c;
-  color: #a5d6a7; 
+  color: #a5d6a7;
   text-decoration: line-through;
 }
