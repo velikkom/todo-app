@@ -1,0 +1,15 @@
+/* [project]/src/styles/components/pending-tasks/_complete-button.scss.css [app-client] (css) */
+.btn-success {
+  border: none;
+  padding: .5rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  background-color: #161212 !important;
+  color: #9e78cf !important;
+}
+
+.btn-success:hover {
+  background-color: #09050e9c;
+}
+
+/*# sourceMappingURL=src_styles_components_pending-tasks__complete-button_scss_b52d8e.css.map*/

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/components/pending-tasks/_delete-button.scss.css"],"sourcesContent":[".delete-button{background-color:#15101c !important;border:none;padding:.5rem;border-radius:8px;color:#9e78cf !important;font-size:1.25rem}.delete-button:hover{background-color:rgba(9,5,14,.6117647059)}"],"names":[],"mappings":"AAAA;;;;;;;;;AAA0I"}},
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

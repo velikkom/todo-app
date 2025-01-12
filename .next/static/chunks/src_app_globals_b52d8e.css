@@ -1,0 +1,54 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+body {
+  font-family: var(--font-roboto), sans-serif;
+  background-color: #121212;
+  color: #fff;
+  font-family: Geist, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #1c1c1c;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.add-task-section, .pending-tasks-section, .completed-tasks-section {
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  background-color: #2c2c2c;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.task-list li:last-child {
+  margin-bottom: 0;
+}
+
+.done-list li {
+  background-color: #1c1c1c;
+  color: #a5d6a7;
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=src_app_globals_b52d8e.css.map*/

@@ -1,0 +1,10 @@
+/* [project]/src/styles/components/pending-tasks/_task-list.scss.css [app-client] (css) */
+.pending-tasks .list-group-item {
+  color: #fff;
+  background-color: #161212 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  margin-bottom: .5rem !important;
+}
+
+/*# sourceMappingURL=src_styles_components_pending-tasks__task-list_scss_b52d8e.css.map*/
