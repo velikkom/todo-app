@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/components/pending-tasks/_pending-task.scss.css"],"sourcesContent":[".pending-tasks{margin-top:1rem}.pending-tasks h2{font-size:2rem}.pending-tasks .task-list span{font-size:2rem;color:#9e78cf !important}.pending-tasks .list-group-item{background-color:#161212 !important;border:none !important;border-radius:8px !important;padding:.75rem 1rem !important;margin-bottom:.5rem !important}.pending-tasks .task-item{display:flex;justify-content:space-between;align-items:center}.pending-tasks .task-item .task-text{font-size:1rem;color:rgba(45,12,104,.1843137255);font-size:1.75rem}.pending-tasks .task-item .button-group{display:flex;gap:.1rem}"],"names":[],"mappings":"AAAA;;;;AAA+B;;;;AAAiC;;;;;AAAuE;;;;;;;;AAAsL;;;;;;AAAwF;;;;;;AAAwG"}},
-    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
